@@ -1,6 +1,6 @@
 # taobao618autoScript
 
-##【交流QQ 908701702  】
+## 【交流QQ 908701702  】
 ##赚猫币自动生成脚本
 淘宝叠猫猫瓜分3亿红包赚猫币自动生成脚本（无需安装其他软件），附每天最大限度的领取最多数量的喵币方法
 发布于 2019年6月8日 作者：SaoDaye
@@ -21,7 +21,7 @@
 ##4，在浏览器地址栏粘贴此链接：https://pages.tmall.com/wow/a/act/tmall/tmc/22351/wupr?wh_pid=industry-161308&sellerId=3079263591
 
 ##5，在console里输入以下代码并回车，程序将自动运行：如下图所示
-
+![QIWEB](main.jpg)
 新代码 2019.06.13
 
 document.write('<iframe width=100% height=100% frameborder=0 scrolling=yes>');frames[0].location.href=location.href;var idx=1;var o=document.createElement('div');o.innerHTML='第1次';o.setAttribute('id','setTimes');o.setAttribute('style','text-align: center;font-size: 14px;background: #000;color: #fff;padding: 10px 0;');document.body.insertBefore(o,document.body.childNodes[0]);var timer=setInterval(function(){if(idx>50){clearInterval(timer);document.getElementById('setTimes').innerHTML='已结束'}else{document.getElementById('setTimes').innerHTML='第'+idx+'次';t()}},13000);function t(){setTimeout(function(){frames[0].document.getElementsByClassName('svelte-qr71gg')[1].click();setTimeout(function(){frames[0].location.reload()},1000)},12000);idx++}t();
